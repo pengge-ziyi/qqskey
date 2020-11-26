@@ -8,6 +8,8 @@ import requests
 from django.http import HttpResponse
 from django.shortcuts import render
 import base64
+import warnings
+warnings.filterwarnings("ignore")
 
 ss = requests.session()
 
